@@ -1,0 +1,161 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    
+    
+}
+
+.header {
+    background-color: bisque;
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo{
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+
+.header .logo img{
+    width: 26px;
+    height: 26px;
+    background: transparent;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.container{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+
+}
+
+.container .button-container button{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    
+    
+}
+
+.container .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    gap: 20px
+}
+
+.container .button-container{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    border-radius: 10px;
+}
+
+.results-container{
+    display: flex;
+    background-color: bisque;
+    width: 300px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.results-container .log{
+    background-color: white;
+    padding: 0px 10px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.score{
+    margin-top: 20px;
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.score .userscore{
+    padding: 20px 20px;
+    background-color: bisque;
+    border-radius: 20px 0px 0px 20px;
+
+}
+
+.score .pcscore{
+    padding: 20px 20px;
+    background-color: bisque;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.score .user-num{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+
+.score .pc-num{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+
+.container #tryagain{
+    border: 2px;
+    border-color: burlywood;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: bisque;
+    margin-top: 20px;
+    width:340px;
+}
+
+.footer{
+    background-color: bisque;
+    margin-top: auto;
+    padding: 0px 10px;
+
+}
+
+
+
+
+
